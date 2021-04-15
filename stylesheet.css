@@ -83,3 +83,75 @@ li{
   outline: 1px solid #000;
   outline-offset: 12px;
 }
+/* Martin - quiz - start */
+*, *::before, *::after {
+  box-sizing: border-box;
+  /*hvilken font vil vi bruge?
+  font-family: ;
+  */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/*placeholder for cards - start*/
+.btn {
+  width: 250px;
+  height: 300px;
+  max-width: 80%;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: black;
+}
+/*placeholder for cards - slut*/
+
+.question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  width: 200px;
+  max-width: 80%;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: white;
+}
+
+.btn1:hover {
+  border-color: orange;
+}
+
+.start-btn, .next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+/* Martin - quiz - start */

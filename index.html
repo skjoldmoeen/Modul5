@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel='shortcut icon' type='image/x-icon' href='img/favicon.png' />
+    <script type="text/javascript" src="martin.js" defer></script>
     <title>Ventilen Quiz</title>
 </head>
 <body>
@@ -24,10 +25,21 @@
     </div>
   </div>
   <div class="wrapper">
-    <h1>h1 Lorem Ipsum</h1>
-    <h2>h2 Lorem Ipsum</h2>
-    <h3>h3 Lorem Ipsum</h3>
-    <p>p Lorem Ipsum</p>
+    <div class="quiz-container">
+      <div id="question-container" class="hide">
+        <div id="quiz-question">Spørgsmål</div>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Svar 1</button>
+          <button class="btn">Svar 2</button>
+          <button class="btn">Svar 3</button>
+          <button class="btn">Svar 4</button>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn1">Start quiz</button>
+        <button id="next-btn" class="next-btn btn1 hide">Næste</button>
+      </div>
+    </div>
   </div>
 
 </body>
