@@ -82,7 +82,6 @@ const questions = [
     answers: [
       { text: 'når man er alene', correct: true },
       { text: 'når man er glad', correct: false },
-      { text: 'når man er sur', correct: false },
       { text: 'når man er forpustet', correct: false }
     ]
   },
@@ -91,7 +90,6 @@ const questions = [
     answers: [
       { text: 'pernille', correct: true },
       { text: 'lars larsen', correct: false },
-      { text: 'pikachu', correct: false },
       { text: 'Ole Henriksen', correct: false }
     ]
   },
@@ -100,7 +98,6 @@ const questions = [
     answers: [
       { text: 'Ingi', correct: true },
       { text: 'lars Lykke', correct: false },
-      { text: 'Dennis', correct: false },
       { text: 'Kim', correct: false }
     ]
   },
@@ -109,7 +106,6 @@ const questions = [
     answers: [
       { text: 'nej', correct: false },
       { text: 'ja', correct: true },
-      { text: 'nej', correct: false },
       { text: 'nej', correct: false }
     ]
   },
@@ -118,7 +114,6 @@ const questions = [
     answers: [
       { text: '6', correct: false },
       { text: '8', correct: true },
-      { text: '6', correct: false },
       { text: '6', correct: false }
     ]
   }
