@@ -107,7 +107,6 @@ body {
   gap: 10px;
   margin: 20px 0;
 }
-
 /*placeholder for cards - start*/
 .btn {
   width: 250px;
@@ -117,8 +116,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   border-color: black;
-}
-/*placeholder for cards - slut*/
+}/*placeholder for cards - slut*/
 
 .question-container {
   display: flex;
@@ -154,4 +152,5 @@ body {
 .hide {
   display: none;
 }
+
 /* Martin - quiz - start */
