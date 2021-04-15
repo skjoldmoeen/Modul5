@@ -80,41 +80,41 @@ const questions = [
   {
     question: 'Hvad er ensomhed?',
     answers: [
-      { text: 'når man er alene', correct: true },
-      { text: 'når man er glad', correct: false },
-      { text: 'når man er forpustet', correct: false }
+      { text: 'En følelse, der opstår når man ikke får opfyldt sit sociale behov', correct: true },
+      { text: 'En følelse, der opstår, når man er bange', correct: false },
+      { text: 'En følelse, der opstår, når man keder sig', correct: false }
     ]
   },
   {
-    question: 'hvem er det bedste gruppemedlem?',
+    question: 'Kan man være ensom, selvom man er omkredset af mennesker?',
     answers: [
-      { text: 'pernille', correct: true },
-      { text: 'lars larsen', correct: false },
-      { text: 'Ole Henriksen', correct: false }
+      { text: 'Ja, for man kan sagtens føle sig alene i selskab med andre', correct: true },
+      { text: 'Nej, selvfølgelig er man ikke ensom i andres selskab', correct: false },
+      { text: 'Nej, hvis du er ensom kender du ingen mennesker', correct: false }
     ]
   },
   {
-    question: 'hvem er Søren banjomus?',
+    question: 'Hvor mange unge føler sig ensomme i Danmark?',
     answers: [
-      { text: 'Ingi', correct: true },
-      { text: 'lars Lykke', correct: false },
-      { text: 'Kim', correct: false }
+      { text: '15.000', correct: false },
+      { text: '125.000', correct: true },
+      { text: '50.000', correct: false }
     ]
   },
   {
-    question: 'var det svært at lave denne quiz?',
+    question: 'Hvilke konsekvenser kan forekomme af langvarig ensomhed?',
     answers: [
-      { text: 'nej', correct: false },
-      { text: 'ja', correct: true },
-      { text: 'nej', correct: false }
+      { text: 'Dårligere søvn og hovedpine', correct: false },
+      { text: 'Depression og mindre empatisk', correct: false },
+      { text: 'Alle tingene', correct: true }
     ]
   },
   {
-    question: 'Hvor mange kokosnødder kan en migrerende afrikansk svale bære?',
+    question: 'Hvad kan du gøre, hvis du føler dig ensom?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true },
-      { text: '6', correct: false }
+      { text: 'Ingenting og håbe på at det bliver bedre', correct: false },
+      { text: 'Samle mod til at snakke med nogen, eller søge hjælp', correct: true },
+      { text: 'Spørge din huns til råds', correct: false }
     ]
   }
 ]
