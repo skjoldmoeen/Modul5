@@ -107,16 +107,6 @@ body {
   gap: 10px;
   margin: 20px 0;
 }
-/*placeholder for cards - start*/
-.btn {
-  width: 250px;
-  height: 300px;
-  max-width: 80%;
-  background-color: transparent;
-  border-radius: 20px;
-  padding: 10px;
-  border-color: black;
-} /*placeholder for cards - slut*/
 
 .question-container {
   display: flex;
@@ -245,7 +235,7 @@ body {
   align-items: baseline;
   justify-content: center;
 }
-.next-btn {
+.nextqst {
   font-family: montserrat, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -258,7 +248,7 @@ body {
   transition: 0.8s;
   outline: none;
 }
-.next-btn:hover {
+.nextqst:hover {
   background-color: #fff;
   color: #707070;
 }
