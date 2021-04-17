@@ -63,6 +63,7 @@ li {
   text-decoration: none;
   color: #000;
   transition: 0.1s;
+  font-size: 0.7em
 }
 .menu a:hover {
   color: #e34a00;
@@ -317,3 +318,25 @@ html, body
   margin: 0 auto 0px;
 }
 
+
+.progressbar-container{
+  background: #fafafa;
+  height: 10px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.bar-container {
+  background: #f0f0f0;
+  height: 15px;
+  width: 100%;
+  border-radius: 10px;
+}
+.bar {
+  background: #E34A00;
+  height: 15px;
+  width: 0%;
+  border-radius: 10px;
+  transition: width 400ms;
+}
