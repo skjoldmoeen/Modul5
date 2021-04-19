@@ -137,21 +137,22 @@ html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-*,
-*:after,
-*:before {
+*, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 16px;
-  background: #fff;
-  overflow: hidden;
+html, body
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
+
+#question-container2 {
+  visibility: hidden;
+}
+
 .flip-card-3D-wrapper {
   width: 60%;
   height: 80%;
@@ -165,17 +166,15 @@ body {
   margin: 0 auto;
 }
 
-#flip-card2 {
+#flip-card2, #flip-card4 {
   left: 300px;
 }
 
-#flip-card3 {
+#flip-card3, #flip-card5 {
   right: 300px;
 }
 
-#flip-card,
-#flip-card2,
-#flip-card3 {
+#flip-card, #flip-card2, #flip-card3, #flip-card4, #flip-card5, #flip-card6  {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -196,8 +195,7 @@ body {
   -ms-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
-#flip-card-btn-turn-to-back2,
-#flip-card-btn-turn-to-front2 {
+#flip-card-btn-turn-to-back2, #flip-card-btn-turn-to-front2, #flip-card-btn-turn-to-back4, #flip-card-btn-turn-to-front4 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -212,8 +210,7 @@ body {
   border: none;
 }
 
-#flip-card-btn-turn-to-back3,
-#flip-card-btn-turn-to-front3 {
+#flip-card-btn-turn-to-back3, #flip-card-btn-turn-to-front3, #flip-card-btn-turn-to-back5, #flip-card-btn-turn-to-front5 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -228,8 +225,7 @@ body {
   border: none;
 }
 
-#flip-card-btn-turn-to-back,
-#flip-card-btn-turn-to-front {
+#flip-card-btn-turn-to-back, #flip-card-btn-turn-to-front, #flip-card-btn-turn-to-back6, #flip-card-btn-turn-to-front6 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -243,12 +239,7 @@ body {
   cursor: pointer;
   border: none;
 }
-#flip-card .flip-card-front,
-#flip-card .flip-card-back,
-#flip-card2 .flip-card-front2,
-#flip-card2 .flip-card-back2,
-#flip-card3 .flip-card-front3,
-#flip-card3 .flip-card-back3 {
+#flip-card .flip-card-front, #flip-card .flip-card-back, #flip-card2 .flip-card-front2, #flip-card2 .flip-card-back2, #flip-card3 .flip-card-front3, #flip-card3 .flip-card-back3, #flip-card4 .flip-card-front4, #flip-card4 .flip-card-back4, #flip-card5 .flip-card-front5, #flip-card5 .flip-card-back5, #flip-card6 .flip-card-front6, #flip-card6 .flip-card-back6{
   width: 100%;
   height: 100%;
   position: absolute;
@@ -257,48 +248,39 @@ body {
   -ms-backface-visibility: hidden;
   backface-visibility: hidden;
   z-index: 2;
-  -webkit-box-shadow: 5px 6px 32px 2px rgba(133, 133, 133, 0.71);
-  -moz-box-shadow: 5px 6px 32px 2px rgba(133, 133, 133, 0.71);
-  box-shadow: 5px 6px 32px 2px rgba(133, 133, 133, 0.71);
+  -webkit-box-shadow: 5px 6px 32px 2px rgba(133,133,133,0.71);
+  -moz-box-shadow: 5px 6px 32px 2px rgba(133,133,133,0.71);
+  box-shadow: 5px 6px 32px 2px rgba(133,133,133,0.71);
 }
-#flip-card .flip-card-front,
-#flip-card2 .flip-card-front2,
-#flip-card3 .flip-card-front3 {
-  background: white;
-  border: 1px solid grey;
+#flip-card .flip-card-front, #flip-card2 .flip-card-front2, #flip-card3 .flip-card-front3, #flip-card4 .flip-card-front4, #flip-card5 .flip-card-front5, #flip-card6 .flip-card-front6 {
+    background: white;
+    border:1px solid grey;
 }
-#flip-card .flip-card-back,
-#flip-card2 .flip-card-back2,
-#flip-card3 .flip-card-back3 {
-  background: lightgreen;
-  border: 1px solid grey;
-  -o-transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+#flip-card .flip-card-back, #flip-card2 .flip-card-back2, #flip-card3 .flip-card-back3, #flip-card4 .flip-card-back4, #flip-card5 .flip-card-back5, #flip-card6 .flip-card-back6 {
+    background: lightgreen;
+    border: 1px solid grey;
+    -o-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
-#flip-card2 .flip-card-back2 {
-  background: orange;
-  border: 1px solid grey;
-  -o-transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+#flip-card2 .flip-card-back2, #flip-card4 .flip-card-back4 {
+    background: orange;
+    border: 1px solid grey;
+    -o-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
-#flip-card3 .flip-card-back3 {
-  background: orange;
-  border: 1px solid grey;
-  -o-transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+#flip-card3 .flip-card-back3, #flip-card5 .flip-card-back5 {
+    background: orange;
+    border: 1px solid grey;
+    -o-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
-#flip-card .flip-card-front p,
-#flip-card .flip-card-back p,
-#flip-card2 .flip-card-front2 p,
-#flip-card2 .flip-card-back2 p,
-#flip-card3 .flip-card-front3 p,
-#flip-card3 .flip-card-back3 p {
+#flip-card .flip-card-front p, #flip-card .flip-card-back p, #flip-card2 .flip-card-front2 p, #flip-card2 .flip-card-back2 p, #flip-card3 .flip-card-front3 p, #flip-card3 .flip-card-back3 p, #flip-card4 .flip-card-front4 p, #flip-card4 .flip-card-back4 p, #flip-card5 .flip-card-front5 p, #flip-card5 .flip-card-back5 p, #flip-card6 .flip-card-front6 p, #flip-card6 .flip-card-back6 p {
   display: block;
   position: absolute;
   top: 55%;
@@ -306,30 +288,21 @@ body {
   font-size: 20px;
 }
 
-#flip-card .flip-card-back h3,
-#flip-card2 .flip-card-back2 h3,
-#flip-card3 .flip-card-back3 h3 {
+ #flip-card .flip-card-back h3,  #flip-card2 .flip-card-back2 h3, #flip-card3 .flip-card-back3 h3, #flip-card4 .flip-card-back4 h3,  #flip-card5 .flip-card-back5 h3, #flip-card6 .flip-card-back6 h3 {
   display: block;
   position: absolute;
   top: 0%;
   width: 100%;
 }
 
-#flip-card .flip-card-back h4,
-#flip-card2 .flip-card-back2 h4,
-#flip-card3 .flip-card-back3 h4 {
-  display: block;
-  position: absolute;
-  top: 20%;
-  width: 100%;
+#flip-card .flip-card-back h4,  #flip-card2 .flip-card-back2 h4, #flip-card3 .flip-card-back3 h4, #flip-card4 .flip-card-back4 h4,  #flip-card5 .flip-card-back5 h4, #flip-card6 .flip-card-back6 h4 {
+ display: block;
+ position: absolute;
+ top: 20%;
+ width: 100%;
 }
 
-.flip-card-front,
-.flip-card-back,
-.flip-card-front2,
-.flip-card-back2,
-.flip-card-front3,
-.flip-card-back3 {
+.flip-card-front, .flip-card-back, .flip-card-front2, .flip-card-back2, .flip-card-front3, .flip-card-back3, .flip-card-front4, .flip-card-back4, .flip-card-front5, .flip-card-back5, .flip-card-front6, .flip-card-back6 {
   border-radius: 30px;
 }
 
@@ -382,8 +355,53 @@ body {
   border: 1px solid grey;
 }
 
-.hide {
-  display: none;
+#nextbtn-korrekt4 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 30px;
+  width: 50%;
+  height: 10%;
+  right: 0px;
+  background: transparent;
+  cursor: pointer;
+  visibility: visible;
+  border: 1px solid grey;
+  /* skal give +1 korrekt*/
+}
+
+#nextbtn-forkert5 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 30px;
+  width: 50%;
+  height: 10%;
+  right: 0px;
+  background: transparent;
+  cursor: pointer;
+  visibility: visible;
+  border: 1px solid grey;
+}
+
+#nextbtn-forkert6 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 30px;
+  width: 50%;
+  height: 10%;
+  right: 0px;
+  background: transparent;
+  cursor: pointer;
+  visibility: visible;
+  border: 1px solid grey;
 }
 
 .card__illustrations {
