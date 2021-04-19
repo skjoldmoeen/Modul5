@@ -429,6 +429,11 @@ body {
   text-align: center;
   font-size: 70%;
 }
+
+.expand-top h1 {
+  padding-top: 20px;
+}
+
 .expand-bottom {
   display: flex;
   flex-direction: row;
