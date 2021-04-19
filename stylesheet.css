@@ -122,6 +122,12 @@ li {
   font-size: 25px;
 }
 
+.startquizbutton:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 5px solid #fff;
+}
+
 /* martins nye kode */
 /* martins nye kode */
 /* martins nye kode */
