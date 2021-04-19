@@ -45,7 +45,8 @@ h3 {
   display: flex;
 }
 .logo img {
-  height: 70px;
+  height: 60px;
+  margin-top: 10px;
 }
 .menu {
   align-items: center;
@@ -120,6 +121,12 @@ li {
 }
 .startquizbutton h2 {
   font-size: 25px;
+}
+
+.startquizbutton:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 5px solid #fff;
 }
 
 /* martins nye kode */
