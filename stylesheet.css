@@ -171,8 +171,8 @@ body {
 .flip-card-3D-wrapper {
   width: 60%;
   height: 80%;
-  max-width: 200px;
-  max-height: 250px;
+  max-width: 220px;
+  max-height: 300px;
   position: relative;
   -o-perspective: 900px;
   -webkit-perspective: 900px;
@@ -379,7 +379,7 @@ body {
   width: 100%;
   font-size: 12px;
   font-weight: 300;
-  padding: 3px;
+  padding: 13px;
   color: #fff;
 }
 
@@ -529,7 +529,7 @@ body {
   max-width: 150px;
   max-height: 150px;
   margin: 0 auto 0px;
-  margin-top: 3%;
+  margin-top: 8%;
 }
 
 .progressbar-container {
@@ -747,4 +747,5 @@ body {
   font-size: 12px;
 }
 .some {
+  cursor: pointer;
 }
