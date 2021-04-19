@@ -153,15 +153,14 @@ body {
 .container {
   justify-content: center;
   align-items: center;
-
   position: relative;
-  padding-top: 7vh;
   text-align: center;
 }
 #question {
   font-weight: 400;
   font-size: 40px;
   align-self: center;
+  padding-top: 7vh;
 }
 
 #question-container2 {
