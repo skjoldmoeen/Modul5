@@ -14,7 +14,7 @@ h1 {
   font-weight: 700;
 }
 h2 {
-  font-size: 2.2em;
+  font-size: 1.8em;
   font-weight: 600;
 }
 h3 {
@@ -64,7 +64,7 @@ li {
   text-decoration: none;
   color: #000;
   transition: 0.1s;
-  font-size: 0.7em;
+  font-size: 1.0em;
 }
 .menu a:hover {
   color: #e34a00;
@@ -141,7 +141,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-size: 24px;
+  font-size: 16px;
   background: #fff;
   overflow: hidden;
 }
@@ -420,15 +420,28 @@ body {
   display: none;
   border-radius: 20px;
   transition: 1s ease height;
+  color: #fff;
 }
+.expand-top{
+  width:  100%;
+  height: 15%;
 
-/*
+}
+.expand-bottom{
+display: flex;
+flex-direction: row;
+width:  100%;
+height: 85%;
+}
+.expand-left{
+  width:  50%;
+  height: 100%;
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
+}
+.expand-right{
+  width: 50%;
+  height: 100%;
+
 }
 
 .wrapper0{
@@ -444,33 +457,20 @@ body {
 }
 
 .wrapper1{
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  max-width: 350px;
   width: 100%;
-  background: #fff;
   padding: 10px;
-  border-radius: 5px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .wrapper1 h2{
   text-align: left;
   margin-bottom: 20px;
   letter-spacing: 1px;
-  color: #332902;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
 }
 
 .wrapper2{
-  margin-top: 15%;
-  left: 20%;
-  max-width: 350px;
-  width: 105%;
-  background: #fff;
   padding: 5px;
-  border-radius: 5px;
 }
 
 .wrapper2 h2{
@@ -489,19 +489,19 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.wrapper2 .input_kasse{
+.input_kasse{
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
 }
 
-.wrapper2 .input_kasse input[type="text"]{
+.input_kasse input[type="text"]{
   width: 100%;
   border: 1px solid #e0e0e0;
   padding: 10px;
   font-family: "Montserrat", sans-serif;
 }
 
-.wrapper2 .btn input[type="submit"]{
+.submit_btn input[type="submit"]{
   border: 0;
   margin-top: 15px;
   padding: 10px;
@@ -511,10 +511,9 @@ body {
   letter-spacing: 1px;
   border-radius: 10px;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
 }
 
-.wrapper2 #error_message{
+#error_message{
   margin-bottom: 20px;
   padding: 0px;
   background: #fe8b8e;
@@ -524,14 +523,8 @@ body {
 }
 
 .wrapper3{
-  position: absolute;
-  top: 1.5%;
-  left: 160%;
-  max-width: 350px;
   width: 100%;
-  background: #fff;
   padding: 10px;
-  border-radius: 5px;
 }
 
 .wrapper3 a{
@@ -542,14 +535,7 @@ body {
 }
 
 .wrapper4{
-  position: absolute;
-  top: 90%;
-  left: 2px;
-  max-width: 350px;
   width: 100%;
-  background: #fff;
-  padding: 10px;
-  border-radius: 5px;
 }
 
 .wrapper4 img{
@@ -558,14 +544,8 @@ body {
 }
 
 .wrapper5{
-  position: absolute;
-  top: 90%;
-  left: -2px;
-  max-width: 350px;
   width: 100%;
-  background: #fff;
   padding: 10px;
-  border-radius: 5px;
 }
 
 .wrapper5 img{
@@ -575,14 +555,12 @@ body {
 }
 
 .wrapper6{
-  position: absolute;
-  top: 8%;
-  left: 50%;
-  max-width: 350px;
+
+
   width: 100%;
-  background: #fff;
+
   padding: 10px;
-  border-radius: 5px;
+
 }
 
 .wrapper6 img{
@@ -591,5 +569,3 @@ body {
   margin-bottom: 5px;
   margin-left: 45px;
 }
-
-*/
