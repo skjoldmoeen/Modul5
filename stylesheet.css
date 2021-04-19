@@ -99,8 +99,8 @@ li {
 .intro_text h1 {
   position: absolute;
   font-size: 35px;
-  margin-left: 58%;
-  margin-top: 22%;
+  margin-left: 59vw;
+  margin-top: 45vh;
   color: #fff;
 }
 .startquizbutton {
@@ -114,8 +114,8 @@ li {
   justify-content: center;
   align-items: center;
   padding: 1% 1% 1% 1%;
-  margin-left: 70%;
-  margin-top: 27%;
+  margin-left: 70vw;
+  margin-top: 55vh;
   border-radius: 50px;
 }
 .startquizbutton h2 {
