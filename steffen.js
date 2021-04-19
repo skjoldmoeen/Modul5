@@ -14,7 +14,7 @@ btn.addEventListener('click', ()=>{
 
 function expand() {
   document.getElementById("expand").style.display = "block";
-  document.getElementById("expand").style.height = "85vh";
+  document.getElementById("expand").style.height = "80vh";
   document.getElementById("progressbar-container").style.display = "none";
   document.getElementById("flip-card").style.display = "none";
   document.getElementById("flip-card2").style.display = "none";
