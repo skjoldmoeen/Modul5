@@ -64,11 +64,7 @@ li {
   text-decoration: none;
   color: #000;
   transition: 0.1s;
-<<<<<<< Updated upstream
   font-size: 0.7em;
-=======
-  font-size: 1em
->>>>>>> Stashed changes
 }
 .menu a:hover {
   color: #e34a00;
@@ -141,7 +137,6 @@ html * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-<<<<<<< Updated upstream
 html,
 body {
   height: 100%;
@@ -149,15 +144,6 @@ body {
   font-size: 24px;
   background: #fff;
   overflow: hidden;
-=======
-html, body
-{
-    height: 100%;
-    width: 100%;
-    font-size: 16px;
-    background: ivory;
-    overflow: hidden;
->>>>>>> Stashed changes
 }
 .flip-card-3D-wrapper {
   width: 60%;
@@ -427,7 +413,7 @@ html, body
 }
 #expand {
   height: 0;
-  width: auto;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   background: #e34a00;
@@ -436,13 +422,18 @@ html, body
   transition: 1s ease height;
 }
 
+/*
 
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
 
 .wrapper0{
   top: 10%;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 38%;
   margin-top: 30px;
   max-width: 400px;
   width: 100%;
@@ -600,3 +591,5 @@ html, body
   margin-bottom: 5px;
   margin-left: 45px;
 }
+
+*/
