@@ -516,8 +516,11 @@ body {
   background: #e34a00;
   display: none;
   border-radius: 20px;
-  transition: 1s ease height;
+  transition: 1s ease;
   color: #fff;
+  visibility: hidden;
+  display: flex;
+  overflow: hidden;
 }
 .expand-top {
   width: 100%;
