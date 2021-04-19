@@ -553,8 +553,8 @@ html, body
 .wrapper3 {
   width: 100%;
   padding: 10px;
-  margin-left: 20%;
-  margin-top: 5%;
+  margin-left: 25%;
+  margin-top: 14%;
 }
 
 .wrapper3 a {
@@ -567,12 +567,13 @@ html, body
 
 .wrapper4 {
   width: 100%;
+  margin-top: 41px;
 }
 
 .wrapper4 img {
   max-width: 50%;
   height: auto;
-  margin-left: 20%;
+  margin-left: 25%;
 }
 
 .wrapper5 {
@@ -580,21 +581,36 @@ html, body
   padding: 10px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding:  0 70px 0 70px;
 }
 
 .wrapper5 img {
-  max-width: 8%;
+  width: 38px;
   height: auto;
-  margin-left: 25%;
+  margin-left: 40px;
+}
+
+.wrapper5 p {
+  font-size: 12px;
 }
 
 .wrapper6 {
   width: 100%;
-  display: flex;
-  flex-direction: row;
+
+  padding: 10px;
+}
+
+.wrapper6 img {
+  max-width: 5%;
+  height: auto;
+  margin-bottom: 5px;
+  margin-left: 45px;
 }
 
 .wrapper6 p {
   font-size: 12px;
-  margin-left: 20%;
+}
+.some{
+
 }

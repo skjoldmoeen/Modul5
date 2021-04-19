@@ -19,4 +19,6 @@ if(email.indexOf("@") == -1 || email.length <1){
 
 alert("Din besked er sendt afsted!")
 return true;
+
+
 }
