@@ -349,7 +349,7 @@ body {
 #flip-card6 .flip-card-back6 p {
   display: block;
   position: absolute;
-  top: 55%;
+  top: 65%;
   width: 100%;
   font-size: 16px;
 }
