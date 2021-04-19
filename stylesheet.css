@@ -548,6 +548,8 @@ body {
 .wrapper5 {
   width: 100%;
   padding: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .wrapper5 img {
