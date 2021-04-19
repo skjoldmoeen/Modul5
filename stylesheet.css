@@ -528,7 +528,7 @@ body {
 .wrapper3 {
   width: 100%;
   padding: 10px;
-  margin-left: 25%;
+  margin-left: 20%;
   margin-top: 5%;
 }
 
@@ -547,7 +547,7 @@ body {
 .wrapper4 img {
   max-width: 50%;
   height: auto;
-  margin-left: 25%;
+  margin-left: 20%;
 }
 
 .wrapper5 {
@@ -558,28 +558,18 @@ body {
 }
 
 .wrapper5 img {
-  max-width: 10%;
+  max-width: 8%;
   height: auto;
-  margin-left: 40px;
-}
-
-.wrapper5 p {
-  font-size: 12px;
+  margin-left: 25%;
 }
 
 .wrapper6 {
   width: 100%;
-
-  padding: 10px;
-}
-
-.wrapper6 img {
-  max-width: 5%;
-  height: auto;
-  margin-bottom: 5px;
-  margin-left: 45px;
+  display: flex;
+  flex-direction: row;
 }
 
 .wrapper6 p {
   font-size: 12px;
+  margin-left: 20%;
 }
