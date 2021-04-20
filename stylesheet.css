@@ -308,7 +308,6 @@ body {
 #flip-card2 .flip-card-back2,
 #flip-card3 .flip-card-back3,
 #flip-card4 .flip-card-back4,
-#flip-card5 .flip-card-back5,
 #flip-card6 .flip-card-back6 {
   background: #c1dfc2;
 
@@ -318,7 +317,7 @@ body {
   transform: rotateY(180deg);
 }
 #flip-card2 .flip-card-back2,
-#flip-card4 .flip-card-back4 {
+#flip-card6 .flip-card-back6 {
   background: #e34a00;
 
   -o-transform: rotateY(180deg);
@@ -334,6 +333,8 @@ body {
   -ms-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
+
+
 #flip-card .flip-card-front p,
 #flip-card .flip-card-back p,
 #flip-card2 .flip-card-front2 p,
