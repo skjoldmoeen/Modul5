@@ -164,7 +164,7 @@ body {
 }
 
 #question-container2 {
-  visibility: hidden;
+  display: none;
 }
 
 .flip-card-3D-wrapper {
@@ -178,6 +178,7 @@ body {
   -ms-perspective: 900px;
   perspective: 900px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 #flip-card2,
@@ -537,6 +538,7 @@ body {
   width: 60%;
   margin: 0 auto;
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .bar-container {

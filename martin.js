@@ -15,8 +15,8 @@ document.getElementById('flip-card-btn-turn-to-front3').style.visibility = 'hidd
 
 document.addEventListener('DOMContentLoaded', function(event) {
 document.getElementById('nextbtn-forkert2').onclick = function() {
-  document.getElementById("question-container").style.visibility = 'hidden';
-  document.getElementById("question-container2").style.visibility = 'visible';
+  document.getElementById("question-container").style.display = 'none';
+  document.getElementById("question-container2").style.display = 'block';
   document.getElementById("flip-card").style.visibility = 'hidden';
   document.getElementById("flip-card2").style.visibility = 'hidden';
   document.getElementById("flip-card3").style.visibility = 'hidden';
@@ -32,8 +32,8 @@ document.getElementById('nextbtn-forkert2').onclick = function() {
   document.getElementById("nextbtn-forkert2").style.visibility = 'hidden';
 };
 document.getElementById('nextbtn-forkert1').onclick = function() {
-  document.getElementById("question-container").style.visibility = 'hidden';
-  document.getElementById("question-container2").style.visibility = 'visible';
+  document.getElementById("question-container").style.display = 'none';
+  document.getElementById("question-container2").style.display = 'block';
   document.getElementById("flip-card").style.visibility = 'hidden';
   document.getElementById("flip-card2").style.visibility = 'hidden';
   document.getElementById("flip-card3").style.visibility = 'hidden';
@@ -49,8 +49,8 @@ document.getElementById('nextbtn-forkert1').onclick = function() {
   document.getElementById("nextbtn-forkert1").style.visibility = 'hidden';
 };
 document.getElementById('nextbtn-korrekt').onclick = function() {
-  document.getElementById("question-container").style.visibility = 'hidden';
-  document.getElementById("question-container2").style.visibility = 'visible';
+  document.getElementById("question-container").style.display = 'none';
+  document.getElementById("question-container2").style.display = 'block';
   document.getElementById("flip-card").style.visibility = 'hidden';
   document.getElementById("flip-card2").style.visibility = 'hidden';
   document.getElementById("flip-card3").style.visibility = 'hidden';
@@ -67,7 +67,7 @@ document.getElementById('nextbtn-korrekt').onclick = function() {
   // +1 til korrekt_svar
 };
 document.getElementById('nextbtn-korrekt4').onclick = function() {
-  document.getElementById("question-container").style.visibility = 'hidden';
+  document.getElementById("question-container").style.display = 'none';
   document.getElementById("question-container2").style.visibility = 'hidden';
   document.getElementById("flip-card").style.visibility = 'hidden';
   document.getElementById("flip-card2").style.visibility = 'hidden';
@@ -85,7 +85,7 @@ document.getElementById('nextbtn-korrekt4').onclick = function() {
   // +1 til korrekt_svar
 };
 document.getElementById('nextbtn-forkert5').onclick = function() {
-  document.getElementById("question-container").style.visibility = 'hidden';
+  document.getElementById("question-container").style.display = 'none';
   document.getElementById("question-container2").style.visibility = 'hidden';
   document.getElementById("flip-card").style.visibility = 'hidden';
   document.getElementById("flip-card2").style.visibility = 'hidden';
@@ -102,7 +102,7 @@ document.getElementById('nextbtn-forkert5').onclick = function() {
   document.getElementById("nextbtn-forkert5").style.visibility = 'hidden';
 };
 document.getElementById('nextbtn-forkert6').onclick = function() {
-  document.getElementById("question-container").style.visibility = 'hidden';
+  document.getElementById("question-container").style.display = 'none';
   document.getElementById("question-container2").style.visibility = 'hidden';
   document.getElementById("flip-card").style.visibility = 'hidden';
   document.getElementById("flip-card2").style.visibility = 'hidden';
